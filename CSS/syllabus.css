@@ -1,0 +1,64 @@
+.top{
+    margin: 2px 0 20px 150px;
+}
+.top h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: #3d0425;
+}
+.top h3{
+    margin: 20px 0 0 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.top h3 span{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+.folders h3 {
+    border-radius: 10px;
+    background-color: #373743;
+    width: 50%;
+    color: white;
+    margin: 6px;
+    display: inline-block;
+    padding: 5px 0 10px 0;
+    font-size: 26px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: .5s;
+    text-align: left;
+    box-shadow: 0 0 8px 0 rgb(105, 52, 252)
+}
+h3 img{
+    height: 50px;
+    width: 50px;
+    padding-left: 12px;
+    padding-right: 10px;
+}
+.folders h3:hover{
+    background-color: #000f41;
+    padding: 5px 0 10px 0;
+    width: 55%;
+    font-size: 29px;
+}
+.folders h3:active{
+    color: red;
+}
+.folders {
+    text-align: center;
+}
+.current{
+    text-decoration: none;
+    color: black;
+}
+#note_found{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+}
+#note_found img{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,23 @@
+.home-about{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.home-about h1{
+    font-size: 27px;
+    color: #011c38;
+    padding: 30px 0px 20px 0px;
+    margin-right: 30px;
+    font-weight: normal;
+    border-bottom: 1px solid #cecece;
+}
+.home-about p{
+    font-size: 15px;
+    padding: 10px 30px 0px 0px;
+    text-align: justify;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+.home-about img{
+    padding: 0 10px 0 0;
+}
